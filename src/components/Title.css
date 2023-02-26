@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+    background: rgb(19,17,52);
+    background: radial-gradient(circle, rgba(19,17,52,1) 0%, rgba(14,13,48,1) 40%, rgba(42,40,62,1) 81%, rgba(0,0,0,1) 100%);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 5px ;
+}
+.logo{
+
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    
+   
+   
+   
+}
